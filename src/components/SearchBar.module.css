@@ -1,0 +1,191 @@
+.SearchContainer {
+    margin-left: 15px;
+}
+
+.ViewOptionContainer {
+    position: absolute;
+    width: 40%;
+    top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+  
+.ViewOption {
+    border-bottom: 1px solid #fff;
+    width: 320px;
+}
+
+.ViewOption ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+  
+.ViewOption li{
+    display: inline-flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 1.1;
+    padding: 10px 20px;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+}
+  
+.ViewOption li:hover {
+    font-weight:700;
+    transition: 0.5 ease-in;
+}
+
+.ViewOption li.active {
+    font-weight: 700;
+    border-bottom: 4px solid darkgoldenrod;
+    color: darkgoldenrod
+}
+
+.SearchBarContainer {
+    position: absolute;
+    top: 25%;
+    width: 40%;
+}
+
+.ContainerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.ContainerContainer input{
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.BtnContainer {
+    position: absolute;
+    top: 45%;
+    width: 40%;
+}
+
+.Btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Btn button {
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: darkgoldenrod;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:930px){
+    .ViewOptionContainer {
+        position: absolute;
+        width: 40%;
+        top: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .ViewOption {
+        border-bottom: 1px solid #fff;
+        width: 320px;     
+    }
+    
+    .SearchBarContainer {
+        position: absolute;
+        top: 25%;
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .ContainerContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+    
+    
+    .ContainerContainer input{
+        font-size: 0.8rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 0 10px;
+        width: auto;
+        margin-bottom: 10px;
+    }
+    
+    .BtnContainer {
+        position: absolute;
+        top: 35%;
+    }
+    
+    .Btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .Btn button {
+        font-family: 'Poppins', sans-serif;
+        border: 0;
+        padding: 10px 20px;
+        font-size: 1rem;
+        text-align: center;
+        background-color: darkgoldenrod;
+        color: #fff;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+
+    
+}
+
+@media only screen and (max-width:680px){
+    .ViewOptionContainer {
+        visibility: hidden;
+        
+    }
+    
+    .SearchBarContainer {
+        visibility: hidden;
+    }
+    
+    
+    .BtnContainer {
+        visibility: hidden;
+    }
+    
+
+    
+}

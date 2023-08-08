@@ -1,0 +1,63 @@
+.restaurant-container {
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.restaurant-details{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.image-container{
+    height: 16.66rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    background: #000;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.col {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+}
+
+.biz-name{
+    padding-top: 5px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left-col {
+    width: 50%;
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.right-col h1{
+    font-size: 1rem;
+
+}
+
+.gold-bold {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color:darkgoldenrod;
+    font-weight: 700;
+}
