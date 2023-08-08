@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Note that users need to get their own API Key and paste it in src/utils/YelpAPI.js in order for the website to retrieve businesses in real time and display results. You can refer to the Yelp website for more details: https://docs.developer.yelp.com/docs/getting-started
 
 ## Available Scripts
 
