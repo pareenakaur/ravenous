@@ -1,4 +1,5 @@
-const apiKey = 'sMFmDcvY0Q3HBUYgAuxJVcy_Nlj4EcbqIXrcdS7yzzFO2eZ9u58jp4h_eEurb7AIsGhjyyCDQS4-6zwZMaxDx1agygXE-xX-rn55uoCuJzR5V2aSl4SMNz0dB47QZHYx';
+//Obtain apiKey from Yelp: https://docs.developer.yelp.com/docs/getting-started
+const apiKey = '<yourAPIKey>';
 
 
 //create module to retrieve business listings from Yelp API using a search function. will contains a function that retrieves business listings based on search terms, location, and sort option.
